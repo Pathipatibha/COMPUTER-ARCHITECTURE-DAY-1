@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+ float cachehit, cachemiss;
+ float cachehitratio;
+ cout<<"\n enter the total number of cache hits:";
+ cin>>cachehit;
+ cout<<"\n enter the number of cache misses:";
+ cin>>cachemiss;
+ cachehitratio=cachehit/(cachehit+cachemiss);
+ cout<<"\n Cache Hit Ratio: "<<cachehitratio;
+ return 0;
+}
